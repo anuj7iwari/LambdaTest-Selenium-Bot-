@@ -2,5 +2,5 @@
 tasks:
   - name: Script Task
     init: npm install selenium # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
-    command: Lembdatest certification
+    command: python Lembdatest certification.py
     
