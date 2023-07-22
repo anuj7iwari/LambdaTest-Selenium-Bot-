@@ -2,4 +2,5 @@
 tasks:
   - name: Script Task
     init: echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
-    command: python jj.py
+    command: npm install selenium 
+    
